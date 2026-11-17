@@ -1,0 +1,148 @@
+{
+  "ordinary_transport": {
+    "cost": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "source_mass": [
+      0.5,
+      0.5
+    ],
+    "target_mass": [
+      0.5,
+      0.5
+    ]
+  },
+  "ordinary_affinities": [
+    {
+      "a": 0,
+      "b": 1,
+      "mass": [
+        [
+          0.45,
+          0.05
+        ],
+        [
+          0.05,
+          0.45
+        ]
+      ]
+    }
+  ],
+  "coupling": {
+    "source_counts": [
+      7,
+      3
+    ],
+    "target_counts_before": [
+      6,
+      4
+    ],
+    "target_counts_after": [
+      4,
+      6
+    ],
+    "source_dissimilarities": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "target_dissimilarities": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "other_affinities": [
+      {
+        "a": 0,
+        "b": 2,
+        "mass": [
+          [
+            0.4,
+            0.1
+          ],
+          [
+            0.1,
+            0.4
+          ]
+        ]
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "mass": [
+          [
+            0.35,
+            0.15
+          ],
+          [
+            0.15,
+            0.35
+          ]
+        ]
+      }
+    ]
+  },
+  "singular_case": {
+    "source_counts": [
+      8,
+      1,
+      1
+    ],
+    "target_counts": [
+      8,
+      1,
+      1
+    ],
+    "source_dissimilarities": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "target_dissimilarities": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+}
